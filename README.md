@@ -28,7 +28,7 @@ A Laravel-based backend API for a Coffee Shop website that allows users to view 
 
 ### Prerequisites
 
-- PHP >= 8.x  
+- PHP >= 12 
 - Composer  
 - MySQL or compatible database  
 - WAMP/LAMP/XAMPP or equivalent local server  
@@ -69,7 +69,7 @@ php artisan serve
 API Documentation
 You can find the API endpoints and test them using the included Postman collection:
 
-Postman collection file: postman/coffee-shop-api.postman_collection.json
+Postman collection file: postman/coffee_shop.postman_collection.json
 
 Import this collection into Postman to explore and test the API.
 
@@ -81,9 +81,9 @@ Use /register and /login endpoints to obtain a token.
 Protect routes by passing the JWT token in the Authorization header as Bearer <token>.
 
 Contributing
-This is a training project, but feel free to open issues or submit pull requests if you find bugs or want to add improvements.
+This is a personal project, but feel free to open issues or submit pull requests if you find bugs or want to add improvements.
 
 License
 This project is open source and available under the MIT License.
 
-<p align="center"> <a href="https://laravel.com" target="_blank"> <img src="https://img.shields.io/badge/Laravel-8.x-red.svg" alt="Laravel Version"> </a> </p> ```
+
